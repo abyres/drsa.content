@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<portlets>
+
+    <!-- -*- extra stuff goes here -*- -->
+ <portlet 
+   addview="drsa.content.portlet.SASDashboard"
+   title="SAS Dashboard"
+   description="Portlet for embedding SAS Dashboards"/>
+
+</portlets>

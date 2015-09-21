@@ -1,0 +1,15 @@
+<section class="portlet portletSASDashboard"  role="section"
+        tal:condition="view/available">
+
+  <header class="portletHeader"
+    tal:content="view/data/name"
+    tal:condition="view/data/name">
+  </header>
+
+  <section class="portletContent">
+     <iframe tal:attributes="src view/iframe_url;
+                             style view/iframe_style"></iframe>
+
+  </section>
+
+</section>
