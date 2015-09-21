@@ -32,7 +32,7 @@ class ISASDashboard(form.Schema, IImageScaleTraversable):
     server = schema.TextLine(
         title=_(u"label_server_url", default=u"Server URL"),
         description=_(u"help_server_url", default=u"URL to the SAS VA Server"),
-        default=u"",
+        default=u"http://sas.drsa.mampu.gov.my",
         required=True
     )
 
