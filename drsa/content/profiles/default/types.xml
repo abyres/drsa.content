@@ -8,6 +8,7 @@
   -->
 <object name="portal_types" meta_type="Plone Types Tool">
   <!-- -*- extra stuff goes here -*- -->
+  <object name="drsa.content.vegavisualization" meta_type="Dexterity FTI" />
   <object name="drsa.content.iframepage" meta_type="Dexterity FTI" />
   <object name="drsa.content.sasdashboard" meta_type="Dexterity FTI" />
 </object>
